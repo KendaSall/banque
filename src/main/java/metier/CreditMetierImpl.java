@@ -1,7 +1,6 @@
 package metier;
 
 public class CreditMetierImpl implements ICreditMetier{
-
 	@Override
 	public double calculMensualiteCredit(double capital, double taux, int duree) {
 		double t = taux/100;
